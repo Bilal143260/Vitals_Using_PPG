@@ -132,7 +132,7 @@ with gr.Blocks() as demo:
             # graphs = gr.Gallery(preview=True, object_fit="scale-down", interactive=False)
             plot_output = gr.Plot()
             bpm = gr.Textbox(label="BMP")
-            heart_rate = gr.Textbox(label="Heart Rate")
+            heart_rate = gr.Textbox(label="BREATHING RATE")
     
     with gr.Row():
         with gr.Column():
